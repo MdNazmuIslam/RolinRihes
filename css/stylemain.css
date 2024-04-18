@@ -1,0 +1,666 @@
+/*
+@import url(/css/typography.css);
+@import url(/css/header.css);
+@import url(/css/mainStyle.css);
+@import url(/css/responsive.css);
+@import url(/css/bootstrap.css);
+*/
+/* typrofraphy start */
+/*Tiro Bangla bangla font */
+
+@font-face {
+    font-family: Dubai;
+    src: url('../fonts/Dubai-Bold.ttf');
+}
+
+@font-face {
+    font-family: Dubai;
+    src: url('../fonts/Dubai-Light.ttf');
+}
+
+@font-face {
+    font-family: Dubai;
+    src: url('../fonts/Dubai-Medium.ttf');
+}
+
+@font-face {
+    font-family: Dubai;
+    src: url('../fonts/Dubai-Regular.ttf');
+}
+
+/* Font Aesome */
+@import "https://use.fontawesome.com/releases/v5.15.1/css/all.css";
+
+
+
+
+:root {
+    --bodyColor: #f1f1f1;
+    --primary: #7F2EF2;
+    --white: #fff;
+    --dark: #080808;
+    ;
+    --secondColor: #BBBBBB;
+    --font-sans-serif: Dubai, Roboto, "Helvetica Neue", Arial;
+}
+
+body {
+    margin: 0px;
+    height: 0px;
+    box-sizing: border-box;
+    background: #080808;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: Dubai;
+}
+
+/* some fix effects  class */
+button.Pbtn {
+    width: 100%;
+    height: 40px;
+    color: var(--dark);
+    font-family: Dubai;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23.63px;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid var(--primary);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    background: linear-gradient(270deg, #7717FF -6.58%, #78007A 105.59%);
+}
+
+.textC:hover {
+    font-weight: bold;
+    color: var(--primary) !important;
+    text-decoration: none !important;
+    transition: all 0.3s !important;
+    -webkit-transition: all 0.3s !important;
+    -moz-transition: all 0.3s !important;
+    -ms-transition: all 0.3s !important;
+    -o-transition: all 0.3s !important;
+}
+
+.text18 {
+    font-size: 18px;
+}
+
+.text20 {
+    font-size: 20px;
+}
+
+.text26 {
+    font-size: 26px;
+}
+
+.subtitale {
+    font-family: Dubai;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 81.02px;
+    text-align: center;
+    color: var(--white);
+
+}
+
+.primaryColor {
+    color: var(--primary);
+}
+
+/* typrofraphy end */
+
+
+/* header start */
+
+.show {
+    padding: 20px;
+    background: var(--dark) !important;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    z-index: 99;
+}
+
+.navbar .close {
+    display: none;
+}
+
+header {
+    position: static;
+    top: 0px;
+    z-index: 99;
+    height: 84px;
+    background-color: var(--dark);
+}
+
+.navbar-brand {
+    font-family: Dubai;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 54.02px;
+    letter-spacing: 5px;
+    text-align: left;
+    color: var(--primary) !important;
+}
+
+nav .navbar-brand {
+    letter-spacing: 2px;
+}
+
+.navbar .navbar-toggler {
+    outline: none;
+    border: none;
+    color: var(--primary) !important;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: var(--secondColor) !important;
+    font-family: Dubai;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.38px;
+    text-align: left;
+
+}
+
+.navbar-nav .nav-item {
+    margin: auto 0.5px;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    color: var(--primary) !important;
+    font-weight: 700;
+}
+
+.navbar-nav .active .nav-link {
+    color: var(--primary) !important;
+    font-weight: 700;
+}
+
+/* navbar  */
+
+
+/* home setion */
+
+.hero-text h2 {
+    margin: 108px auto;
+    line-height: 81.2px;
+    font-size: 48px;
+}
+
+.hero-text h2 span {
+    color: var(--primary);
+}
+
+.homeBtn {
+    margin: 30px auto;
+}
+
+.homeBtn button {
+    width: 100%;
+    max-width: 180px;
+    ;
+    height: 40px;
+    color: var(--primary);
+    font-family: Dubai;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23.63px;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid var(--primary);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.homeBtn button:hover {
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    color: var(--dark);
+    background: linear-gradient(270deg, #7717FF -6.58%, #78007A 105.59%);
+}
+
+.homeBtn .btn.active {
+    color: var(--dark);
+    background: linear-gradient(270deg, #7717FF -6.58%, #78007A 105.59%);
+}
+.arrowandimgs{
+    margin: auto;
+    max-width: 382px;
+    height: 377px;
+    background: url(../img/Floaters.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    ba
+}
+#home .Arrows,#home .arrowandimgs {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+.arrows{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.arrows span{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-bottom: 5px solid var(--primary);
+    border-right: 5px solid var(--primary);
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    margin: -10px;
+    animation: scroll 3s infinite;
+    -webkit-animation: scroll 3s infinite;
+}
+
+.arrows span:nth-child(2){
+    animation-delay: -.2s;
+    width: 35px;
+    height: 35px;
+}
+.arrows span:nth-child(3){
+    animation-delay: -.4s;
+    width: 30px;
+    height: 30px;
+}
+@keyframes scroll{
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate( -150px, -150px);
+        -webkit-transform: rotate(45deg) translate( -150px, -150px);
+        -moz-transform: rotate(45deg) translate( -150px, -150px);
+        -ms-transform: rotate(45deg) translate( -150px, -150px);
+        -o-transform: rotate(45deg) translate( -150px, -150px);
+}50%{
+    opacity: 1;
+}100%{
+    opacity: 0;
+    transform: rotate(45deg) translate( 150px, 150px);
+    -webkit-transform: rotate(45deg) translate( 150px, 150px);
+    -moz-transform: rotate(45deg) translate( 150px, 150px);
+    -ms-transform: rotate(45deg) translate( 150px, 150px);
+    -o-transform: rotate(45deg) translate( 150px, 150px);
+}
+}
+
+
+
+
+
+
+/* our desposit bounuses section */
+#OurDesp,
+#Levelup {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#Levelup {
+    padding-top: 150px;
+}
+
+#OurDesp .subtitale {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.subthr {
+    opacity: 1;
+    margin: auto;
+    width: 100%;
+    max-width: 450px;
+    margin-top: -18px;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(238, 238, 238, 0) 0%, #7717FF 50.43%, rgba(255, 255, 255, 0) 100%);
+
+}
+
+#OurDesp .Bouns_box {
+    padding: 30px;
+    width: 100%;
+    max-width: 350px;
+    max-height: 250px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    border-image-slice: 2;
+    border-color: linear-gradient(180deg, #7717FF 0%, rgba(207, 207, 207, 0) 92.71%);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: auto;
+    box-shadow: 0px -1px 0px 1px #7717FF;
+}
+
+#OurDesp .Bouns_box h4 {
+    margin: 20px auto;
+    font-size: 30px;
+}
+
+#OurDesp .Bouns_box hr {
+    margin: 20px auto;
+    opacity: 1;
+    height: 1.5px;
+    background: linear-gradient(90deg, rgba(238, 238, 238, 0) 0%, #7717FF 50.43%, rgba(255, 255, 255, 0) 100%);
+}
+
+#OurDesp .Bouns_box li {
+    font-size: 16px;
+    color: var(--secondColor);
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    height: 187px;
+    background: rgba(18, 20, 24, 1);
+
+}
+
+.container-fluid {
+    background: rgba(18, 20, 24, 1);
+}
+
+footer p {
+    color: var(--secondColor);
+}
+
+/* leaderboard page start */
+/* pakage section */
+#pakage .subtitale {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+#pakage .subtitale span {
+    color: var(--primary);
+}
+
+.pakages .pakage-box {
+    position: relative;
+    padding: 30px;
+    width: 100%;
+    max-width: 350px;
+    max-height: 250px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    border-image-slice: 2;
+    border-color: linear-gradient(180deg, #7717FF 0%, rgba(207, 207, 207, 0) 92.71%);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: auto;
+    box-shadow: 0px -1px 0px 1px #7717FF;
+}
+
+.pakages .pakage-box hr {
+    opacity: 1;
+    margin-top: -5px;
+    background: linear-gradient(90deg, rgba(238, 238, 238, 0) 0%, #7717FF 50.43%, rgba(255, 255, 255, 0) 100%);
+}
+
+.pakages .pakage-box span {
+    position: absolute;
+    top: -40px;
+    width: 50px;
+    height: 50px;
+    background: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    left: 43%;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.pakages .pakege-two {
+    height: 350px;
+}
+
+.pakages .pakage-box p {
+    color: var(--primary);
+}
+
+.pakages .pakage-box button {
+    font-size: 22px;
+}
+
+#pakage .pakages {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.usertable {
+    margin-top: 30px;
+    margin-bottom: 150px;
+    border: 1px solid var(--primary);
+}
+
+.usertable table {
+    padding: 0px;
+    margin: 0px;
+}
+
+.usertable table,
+.usertable tr,
+.usertable td,
+.usertable th {
+    border: none !important;
+    font-weight: bold;
+}
+
+.usertable .rownumber {
+    width: 30px;
+    height: 30px;
+    background: var(--primary);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.usertable tr p {
+    margin: 0px;
+}
+
+.usertable td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+/* leaderboard page end */
+
+/* level up page start */
+#leveluphome button.Pbtn {
+    width: 100%;
+    max-width: 333px;
+    font-size: 20px;
+}
+
+#leveluphome .titale {
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+#leveluphome .subthr {
+    width: 100%;
+    max-width: 1000px !important;
+    margin-top: 0px;
+}
+
+#leveluphome .borderbox {
+    width: 100%;
+    max-width: 665px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    border-image-slice: 2;
+    border-color: linear-gradient(180deg, #7717FF 0%, rgba(207, 207, 207, 0) 92.71%);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: auto;
+    box-shadow: 0px -1px 0px 1px #7717FF;
+}
+
+.borderbox .box {
+    width: 100%;
+    max-width: 518px;
+    margin: auto;
+}
+
+.box table {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border: 1px solid var(--primary);
+    font-size: 24px;
+}
+
+.box table td {
+    padding: 0px;
+    width: 50%;
+    border: 1px solid var(--primary);
+
+}
+
+.iconimg {
+    margin-bottom: -100px;
+}
+
+.iconimg img {
+    max-width: 271px;
+    width: 100%;
+}
+
+#leveluphome .silver,
+#leveluphome .Gold,
+#leveluphome .Platinum,
+#leveluphome .Jade,
+#leveluphome .Sapphire,
+.Ruby {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Platinum .iconimg img {
+    max-width: 431px;
+    height: 477px;
+}
+
+.Gold .iconimg img {
+    max-width: 270px;
+    height: 306px;
+}
+
+/* level up page end */
+/* Reg page styles start */
+#Respage button.Pbtn {
+    max-width: 160px;
+}
+
+.section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section.last {
+    margin-bottom: 300px;
+}
+
+#Respage .textBox h3 {
+    font-size: 48px;
+}
+
+#Respage .imgbox {
+    text-align: center;
+}
+
+#Respage .textBox hr {
+    margin-top: -10px;
+    opacity: 1;
+    background: linear-gradient(90deg, rgba(238, 238, 238, 0) 0%, #7717FF 50.43%, rgba(255, 255, 255, 0) 100%);
+}
+
+#Respage .textBox button {
+    margin: auto;
+    width: 50%;
+}
+
+#Respage .titale {
+    margin-top: 200px;
+}
+
+/* Reg page styles end */
+
+/* responsive style */
+@media (max-width: 576.98px) {
+    #OurDesp {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    #Levelup {
+        padding-top: 0px;
+    }
+
+    .section.last {
+        margin-bottom: 150px;
+    }
+
+    #pakage .subtitale,
+    #leveluphome .titale,
+    #Respage .titale {
+        margin-top: 150px;
+    }
+
+}
+
+@media (min-width: 1399.98px) {}
